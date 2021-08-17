@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 95%;
+  margin: 20px auto;
+  font-size: 1.2em;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: red;
+}
+
+.career-objectives p {
+  text-align: justify;
+}
+
+div.info {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.info > div {
+  padding: 0 1em;
+}
+
+main {
+  margin: 10px auto;
+  width: 97%;
+}
+
+h3 {
+  color: red;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-bottom: 2em;
+}
+
+.skills div {
+  display: flex;
+}
+
+.skills div ul {
+  margin: 0 2em;
+}
+
+.cert ul {
+  margin-left: 2em;
+}
+
+.job ul,
+.edu-item ul {
+  margin: 0 0 0 2em;
+  max-width: 800px;
+}
+
+.job,
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.date {
+  padding-left: 1.5em;
+}
+
+div.info > div > a {
+  text-decoration: none;
+  color: white;
+}
+
+div.cert a,
+.item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.cert i {
+  font-size: 0.7em;
+}
+
+div.info > div > a:hover {
+  color: grey;
+}
+
+@media (max-width: 678px) {
+  div.info {
+    display: grid;
+  }
+
+  .skills div {
+    display: block;
+  }
+}
