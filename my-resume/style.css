@@ -167,13 +167,14 @@ li {
 
 .job,
 .edu-item {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
   margin-bottom: 2em;
 }
 
-.date {
-  padding-left: 1.5em;
+.item {
+  max-width: 650px;
 }
 
 div.info > div > a {
